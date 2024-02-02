@@ -1,0 +1,25 @@
+
+
+.formBtn {
+    text-decoration: none;
+    color: white;
+    width: 200px;
+    height: 40px;
+    background-color: #FF9800;
+    outline-color: transparent;
+    border-color: transparent;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left:13px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.formBtn:hover{
+    cursor: pointer;
+    background-color: #df8703;
+    transition: 200ms ease-in-out all;
+}

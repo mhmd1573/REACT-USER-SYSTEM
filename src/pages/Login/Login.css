@@ -1,0 +1,213 @@
+
+
+.login-container{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: 0 auto;
+    height: 90vh;
+}
+
+.home{
+   padding-left: 50px;
+}
+
+.reg-error{
+    padding-left: 20px;
+}
+
+/* child2 section starts here */
+
+.child2{
+   width:70%;
+    height: 90vh;
+    text-align: center;
+    padding-top: 130px;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    font-size: 15px;
+    width: 400px;
+    height: 40px;
+   margin: 15px;
+   padding-left: 5px;
+   border: 1px solid black;
+}
+
+input:focus{
+    border: 2px solid black ;
+}
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button.forgetPass {
+    border: none;
+    background-color: transparent;
+    text-decoration: underline;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    color: black;
+}
+
+.pass{
+    width: 400px;
+    text-align: end;
+    margin-bottom: 20px;
+}
+
+
+.container2 div p a {
+    color:#FF9800;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.login-or{
+    margin-bottom: 15px;
+}
+
+#forgetPassForm{
+    display: none;
+    width: auto;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+
+}
+#forgetPassForm div{
+text-align: end;
+}
+
+#forgetPassForm div button{
+    padding: 10px 20px;
+    background-color: #FF9800;
+    font-weight: bold;
+    border-color: transparent;
+    cursor: pointer;
+    margin-top: 10px;
+}
+#forgetPassForm div button:hover{
+   background-color: #df8703;
+   transition: 0.2s ease-in-out all;
+}
+
+.toFlex{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.close-btn{
+    font-size: 25px;
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+.active {
+    display: block !important;
+}
+
+.error-messages{
+    color: red;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+
+/* child2 section ends here */
+
+
+
+/* styling responsive screens sections starts here */
+
+
+ 
+
+
+   @media only screen and (max-width: 600px){
+
+    .child1{
+        display: none;
+    }
+    .child2{
+        width: 100%;
+        height: 100px;
+        margin: 0 auto;
+        border: 1px solid red;
+    }
+
+    .child2 input {
+        width: 250px;
+        margin:  10px auto;
+        font-size: 12px;
+        
+    }
+
+    .formBtn{
+        width: 150px;
+        margin: 10px auto;
+    }
+
+   
+  .child2 .pass{
+   text-align: center;
+  }
+
+
+   
+   }
+
+
+   @media only screen and (max-width: 901px){
+    .login-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .child1{
+        width: 100%;
+        height:fit-content;
+        text-align: center;
+    }
+    .child1-image{
+        margin: 0 auto;
+    }
+    .navbar button{
+        margin-left: 200px;
+    }
+   }
+
+/* styling responsive screens section ends here */
+
+
+
+

@@ -1,0 +1,39 @@
+/* child1 section starts here */
+
+.child1{
+    width: 35%;
+    height: 100vh;
+    background-color: #5F8670;
+    color: white;
+    text-align: start;
+    padding: 40px;
+}
+
+.logo{
+    text-decoration: none;
+    color:white;
+    font-size: 3rem;
+}
+
+.child1 h2{
+    padding: 30px 0;
+}
+
+.child1 p{
+    font-weight: 400;
+    line-height: 1.8rem;
+    padding-bottom: 45px;
+    opacity: 0.8;
+}
+
+.child1-image{
+    width: 350px;
+    height: 180px;
+    background-image: url(/src/assets/images/undraw_sign_up_n6im.svg);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position-x: center;
+    
+}
+
+/* child1 section ends here */

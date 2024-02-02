@@ -1,0 +1,6 @@
+export {default as LeftChild} from './LeftChild/LeftChild'
+export {default as Icons} from './Icons/Icons' 
+export {default as FormBtn} from './FormBtn/FormBtn'
+export {default as Navbar} from './Navbar/Navbar'
+export {default as Sidebar} from './Sidebar/Sidebar'
+export {default as Card} from './Card/Card'

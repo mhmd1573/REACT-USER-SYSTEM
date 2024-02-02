@@ -1,0 +1,11 @@
+.icons{
+    padding-bottom: 7px;
+    display: flex;
+}
+
+.icon{
+    font-size: 25px;
+    margin: 0 10px;
+    color: #B80000;
+    cursor: pointer;
+}

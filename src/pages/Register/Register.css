@@ -1,0 +1,299 @@
+
+
+.reg-container{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: 0 auto;
+    height: 90vh;
+}
+
+/* child1 section starts here */
+
+.child1{
+    width: 35%;
+    height: 110vh;
+    background-color: #5F8670;
+    color: white;
+    text-align: start;
+    padding: 40px;
+    padding-top: 80px;
+}
+
+.logo{
+    text-decoration: none;
+    color:white;
+    font-size: 3rem;
+}
+
+.child1 h2{
+    padding: 30px 0;
+}
+
+.child1 p{
+    font-weight: 400;
+    line-height: 1.8rem;
+    padding-bottom: 45px;
+    opacity: 0.8;
+}
+
+.child1-image{
+    width: 350px;
+    height: 180px;
+    background-image: url(/src/assets/images/undraw_sign_up_n6im.svg);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position-x: center;
+
+    
+}
+
+/* child1 section ends here */
+
+.home{
+   padding-left: 50px;
+}
+
+.error-message{
+    color: red;
+    font-size: 12px;
+    /* font-weight: bold; */
+    font-weight: 600;
+    text-align: start;
+    padding-left: 30px;
+    margin: -13px;
+    padding-bottom: 10px;
+    
+}
+
+/* child2 section starts here */
+
+.child2{
+   width:70%;
+    /* height: 90vh; */
+    text-align: center;
+    /* padding-top: 150px; */
+    padding-bottom: 550px;
+}
+
+.sign-up{
+    
+    padding-bottom: 14px;
+    padding-top: 30px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    font-size: 15px;
+    width: 400px;
+    height: 40px;
+   padding-left: 5px;
+   border: 1px solid black;
+}
+
+input:focus{
+    border: 2px solid black ;
+}
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.error-input {
+    border-color: red; /* or any other color you prefer */
+  }
+
+.formBtn {
+    text-decoration: none;
+    color: white;
+    width: 400px;
+    height: 40px;
+    background-color: #FF9800;
+    outline-color: transparent;
+    border-color: transparent;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left:13px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.formBtn:hover{
+    cursor: pointer;
+    background-color: #df8703;
+    transition: 200ms ease-in-out all;
+}
+button.forgetPass {
+    border: none;
+    background-color: transparent;
+    text-decoration: underline;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.pass{
+    width: 400px;
+    text-align: end;
+    margin-bottom: 15px;
+}
+
+ .fa-brands{
+    font-size: 25px;
+    padding: 7px 14px;
+    color: #B80000;
+    cursor: pointer;
+}
+
+.container2 div p a {
+    color:#FF9800;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.icons{
+    padding-bottom: 7px;
+}
+
+#forgetPassForm{
+    display: none;
+    width: auto;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+
+}
+#forgetPassForm div{
+text-align: end;
+}
+
+#forgetPassForm div button{
+    padding: 10px 20px;
+    background-color: #FF9800;
+    font-weight: bold;
+    border-color: transparent;
+    cursor: pointer;
+    margin-top: 10px;
+}
+#forgetPassForm div button:hover{
+   background-color: #df8703;
+   transition: 0.2s ease-in-out all;
+}
+
+.toFlex{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.fa-square-xmark{
+    font-size: 25px;
+    cursor: pointer;
+}
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+.active {
+    display: block !important;
+}
+
+
+/* child2 section ends here */
+
+
+
+/* styling responsive screens sections starts here */
+
+   @media only screen and (max-width: 600px){
+
+    .child1-reg{
+        width: 100%;
+        height: auto;
+        text-align: center;
+        display: none;
+    }
+    .child2{
+        width: 100%;
+        height: 100px;
+        margin: 0 auto;
+    }
+
+    .child2 input {
+        width: 250px;
+        margin:  10px auto;
+        font-size: 12px;
+        
+    }
+
+    .formBtn{
+        width: 150px;
+        margin: 10px auto;
+    }
+
+    .navbar div ul{
+        display: none;
+    }
+
+  .navbar button{
+    margin-left: 250px;
+    display: block;
+  }
+  .child2 .pass{
+   text-align: center;
+  }
+
+  .error-message{
+    padding-left: 15px;
+    padding-bottom: 15px;
+    padding-top: 5px;
+  }
+   
+   }
+
+
+   @media only screen and (max-width: 901px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .child1{
+        width: 100%;
+        height:fit-content;
+        text-align: center;
+    }
+    .child1-image{
+        margin: 0 auto;
+    }
+    .navbar button{
+        margin-left: 200px;
+    }
+   }
+
+/* styling responsive screens section ends here */
+
+
+
+

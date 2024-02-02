@@ -1,0 +1,102 @@
+/* Navbar Section Starts Here */
+.logo{
+    text-decoration: none;
+    color:white;
+    font-size: 3rem;
+}
+
+.navbar {
+
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#5F8670;
+  }
+
+.navbar div ul{
+    display: flex;
+    list-style: none;
+}
+
+.navbar div ul li{
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.navbar div ul li a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.navbar button{
+    display: none;
+}
+
+.toggler {
+    background-color: transparent;
+    color: white;
+    border: 3px solid white;
+    border-radius: 4px;
+    padding: 4px 14px;
+    font-size:25px;
+    cursor: pointer;
+    margin-left: 20px;
+  }
+
+  .fa-arrow-right-from-bracket{
+    color: white;
+    padding-left: 10px;
+  }
+
+  .active{
+    color: black !important;
+    
+  }
+
+li .logout{
+    display: flex;
+    align-items: center;
+}
+
+.log-icon{
+    color: white;
+}
+
+/* Navbar Section Ends Here */
+
+@media only screen and (max-width: 600px){
+   
+    *{
+        overflow: hidden;
+     }
+   
+    .navbar button {
+        display: block;
+        font-size: 1rem;
+    }
+
+    .links{
+        display: none;
+    }
+
+    .navbar{
+        border: 1px solid red;
+        width: 100%;
+        display: flex;
+    }
+
+    .navbar .logo{
+        font-size: 2rem;
+    }
+   
+}
+
+@media only screen and (min-width:601px){
+    .links{
+        display: block;
+    }
+}
